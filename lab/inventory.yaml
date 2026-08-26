@@ -1,0 +1,16 @@
+---
+course:
+  vars: 
+    ansible_user: root
+    ansible_ssh_pass: Netapp12
+  hosts:
+    eric:
+      ansible_host: 172.16.123.1 # change to your lab
+    david:
+      ansible_host: 172.16.123.2 # change to your lab
+    tom:
+      ansible_host: 172.16.123.3 # change to your lab
+    mirko:
+      ansible_host: 172.16.50.5 # change to your lab
+
+    
